@@ -58,3 +58,32 @@ body {
 .board > [data-status="marked"] {
   background-color: yellow;
 }
+
+.start-img {
+  height: 50vh;
+  width: 25vw;
+}
+
+.reset {
+  height: 5vh;
+  width: 20vh;
+  border: none;
+  outline: none;
+  background-color: #298459;
+  color: white;
+  font-size: 2rem;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  box-shadow: #245624 0.1rem 0.2rem;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.reset:hover {
+  background-color: #1aac68;
+}
+
+.subtext {
+  margin: 0;
+  padding: 0;
+}
